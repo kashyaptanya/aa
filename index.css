@@ -24,30 +24,44 @@ img {
 
 .image {
 
-    width: 8%;
+    width: 64px;
     margin: 0 auto;
 }
 
 .img {
-    width: 7%;
+    width: 25px;
+    min-width: 20px;
 }
 
 .center {
-    width: 23%;
+    max-width: 300px;
+   
     margin: auto;
 }
 
 
 .text p {
+    
     font-family: 'Raleway', sans-serif;
+}
+.text h6{
+    font-size: 20px;
+
 }
 
 .buttons h6 {
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
 }
+ @media screen and  (max-width: 400px) {
+    .center {
+        font-size: 12px;
+    }
+.text h6{
+    font-size: 15px;
+}}
 
-@media screen and (max-width: 319px) and (min-width: 200px) {
+/* @media screen and (max-width: 319px) and (min-width: 200px) {
     .center {
         width: 100%;
         font-size: 8px;
@@ -142,4 +156,4 @@ img {
     .buttons h6{
         font-size: 39px;
     }
-}
+} */
