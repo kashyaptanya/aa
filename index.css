@@ -1,0 +1,145 @@
+.logo_container {
+    background-color: #d43d3d;
+    height: 50vh;
+}
+
+.buttons {
+    background-color: rgb(196, 195, 195);
+ 
+}
+
+.buttons {
+    color: rgba(148, 142, 142, 0.534);
+
+}
+
+.applebutton {
+    padding: 9px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+
+    width: 8%;
+    margin: 0 auto;
+}
+
+.img {
+    width: 7%;
+}
+
+.center {
+    width: 23%;
+    margin: auto;
+}
+
+
+.text p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.buttons h6 {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 319px) and (min-width: 200px) {
+    .center {
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .img {
+        width: 29%;
+    }
+
+    .image {
+        width: 38%;
+    }
+}
+@media screen and (max-width: 374px) and (min-width: 320px) {
+    .image {
+        width: 32%;
+    }
+
+    .center {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .img {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 375px) {
+    .image {
+        width: 16%;
+    }
+
+    .img {
+        width: 18%;
+    }
+
+    .center {
+        font-size: 13px;
+        width: 84%;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 426px) {
+    .center {
+        font-size: 15px;
+        width: 78%;
+    }
+
+    .image {
+        width: 14%;
+    }
+
+    .img {
+        width: 6%;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .center {
+        width: 51%;
+    }
+
+    .img {
+        width: 6%;
+    }
+}
+
+
+@media screen and (max-width: 1430px) and (min-width: 1024px) {
+    .center {
+        width: 35%;
+    }
+
+    .img {
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+    .center {
+        width: 20%;
+        font-size: 32px;
+    }
+
+    .img {
+        width: 8%;
+    }
+    .text p{
+        font-size: 52px;
+    }
+    .text h6{
+        font-size: 46px;
+    }
+    .buttons h6{
+        font-size: 39px;
+    }
+}
